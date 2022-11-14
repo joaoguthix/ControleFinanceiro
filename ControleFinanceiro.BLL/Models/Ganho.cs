@@ -4,11 +4,9 @@ using System.Text;
 
 namespace ControleFinanceiro.BLL.Models
 {
-    public class Despesa
+    public class Ganho
     {
-        public int DespesaId { get; set; }
-        public int CartaoId { get; set; }
-        public Cartao Cartao { get; set; }
+        public int GanhoId { get; set; }
 
         public string Descricao { get; set; }
 
@@ -25,6 +23,7 @@ namespace ControleFinanceiro.BLL.Models
         public Mes Mes { get; set; }
 
         public int Ano { get; set; }
+
 
         public string UsuarioId { get; set; }
 
