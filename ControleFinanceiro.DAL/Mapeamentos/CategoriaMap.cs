@@ -20,7 +20,7 @@ namespace ControleFinanceiro.DAL.Mapeamentos
                 .HasMaxLength(15);
 
             builder.HasOne(c => c.Tipo)
-                .WithMany(c => c.Categoria)
+                .WithMany(c => c.Categorias)
                 .HasForeignKey(c => c.TipoId)
                 .IsRequired();
             builder.HasMany(c => c.Ganhos)

@@ -12,7 +12,7 @@ namespace ControleFinanceiro.BLL.Models
 
         public string Profissao { get; set; }
 
-        public byte[] foto { get; set; }
+        public byte[] Foto { get; set; }
 
 
         public virtual ICollection<Cartao> Cartoes { get; set; }
