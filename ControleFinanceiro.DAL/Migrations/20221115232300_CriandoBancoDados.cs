@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace ControleFinanceiro.DAL.Migrations
 {
-    public partial class criacaoBancoDados : Migration
+    public partial class CriandoBancoDados : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -308,8 +308,8 @@ namespace ControleFinanceiro.DAL.Migrations
                 columns: new[] { "Id", "ConcurrencyStamp", "Descricao", "Name", "NormalizedName" },
                 values: new object[,]
                 {
-                    { "5bdb5c33-84e5-4e8f-abb2-292b0cdfacf8", "21de3d3d-56b8-4f0a-bbcc-b68112d5ea09", "Admistrador do sistema", "Adminstrador", "ADMINISTRADOR" },
-                    { "64daf2d4-cca1-4c27-8df5-9b366a4ab17f", "59891593-4fe8-4eca-a7d9-7a6b73144637", "Usuario do sistema", "Usuario", "USUARIO" }
+                    { "907e69e9-147f-4d40-a68d-76b79e283bed", "65555f20-bf08-4f12-8dae-1e2a1fd9f8da", "Admistrador do sistema", "Adminstrador", "ADMINISTRADOR" },
+                    { "0b47c81a-8be5-4e2a-befa-872aeec3c2d5", "e12d275a-153e-4aa3-bd89-7a27c8305a6f", "Usuario do sistema", "Usuario", "USUARIO" }
                 });
 
             migrationBuilder.InsertData(

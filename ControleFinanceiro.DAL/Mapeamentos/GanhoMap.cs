@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ControleFinanceiro.DAL.Mapeamentos
 {
-    internal class GanhoMap : IEntityTypeConfiguration<Ganho>
+    public class GanhoMap : IEntityTypeConfiguration<Ganho>
     {
         public void Configure(EntityTypeBuilder<Ganho> builder)
         {

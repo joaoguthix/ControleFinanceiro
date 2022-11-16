@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ControleFinanceiro.DAL.Mapeamentos
 {
-    internal class MesMap : IEntityTypeConfiguration<Mes>
+    public class MesMap : IEntityTypeConfiguration<Mes>
     {
         public void Configure(EntityTypeBuilder<Mes> builder)
         {

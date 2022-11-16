@@ -7,7 +7,7 @@ using System.Text;
 
 namespace ControleFinanceiro.DAL.Mapeamentos
 {
-    internal class UsuarioMap : IEntityTypeConfiguration<Usuario>
+    public class UsuarioMap : IEntityTypeConfiguration<Usuario>
     {
         public void Configure(EntityTypeBuilder<Usuario> builder)
         {
