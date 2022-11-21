@@ -31,7 +31,7 @@ export class CategoriasService {
     }
 
     AtualizarCategoria(categoriaId: number, categoria: Categoria ) : Observable<any>{
-      const apiUrl = '$(this.url)/$(categoriaId)';
+      const apiUrl = '${this.url}/${categoriaId}';
       return this.http.put<Categoria>(apiUrl, categoria, httpoptions);
     }
     ExcluirCategoria(categoriaId: number) : Observable<any>{
