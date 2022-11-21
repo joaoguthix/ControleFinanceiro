@@ -22,7 +22,7 @@ export class CategoriasService {
     return this.http.get<Categoria[]>(this.url);
   }
     PegarCategoriaPeloId(categoriaId: number) : Observable<Categoria>{
-      const apiUrl = '$(this.url)/$(categoriaId)';
+      const apiUrl = '${this.url}/${categoriaId}';
       return this.http.get<Categoria>(apiUrl);
     }
 
@@ -35,7 +35,7 @@ export class CategoriasService {
       return this.http.put<Categoria>(apiUrl, categoria, httpoptions);
     }
     ExcluirCategoria(categoriaId: number) : Observable<any>{
-      const apiUrl = '$(this.url)/$(categoriaId)';
+      const apiUrl = '${this.url}/${categoriaId}';
       return this.http.delete<number>(apiUrl, httpoptions);
     }
 }
