@@ -19,7 +19,8 @@ export class AtualizarCategoriaComponent implements OnInit {
   tipos!: Tipo[];
   formulario: any;
 
-  constructor(private router : Router,
+  constructor(
+    private router : Router,
     private route : ActivatedRoute,
     private tiposServices : TiposService,
     private categoriasService : CategoriasService){}
